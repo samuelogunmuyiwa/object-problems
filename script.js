@@ -15,8 +15,8 @@ const person = {
 // Use the delete keyword to remove the value of the object property(haircolor). 
 
 function removeProperty(object , property) {
-	delete person.haircolor;
-	return person;
+	delete object[property];
+	return object;
 }
 
-console.log(removeProperty(person , "haircolor"))
+console.log(removeProperty(person , "sex"))
