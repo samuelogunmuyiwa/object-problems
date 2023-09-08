@@ -40,8 +40,8 @@ const people = [
 // Using the array for each() method.
   
   function displayNameInfo(arrayOfObjects) {
-    arrayOfObjects.forEach(function(x) {
-      console.log(x.firstName + "  " + x.lastName)
+    arrayOfObjects.forEach(function(obj) {
+      console.log(obj.firstName + "  " + obj.lastName)
     });                
                           
   }
